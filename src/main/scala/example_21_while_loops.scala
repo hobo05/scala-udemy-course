@@ -8,17 +8,17 @@ object example_21_while_loops extends App {
     }
   }
 
-  var x = 0;
+  var x = 0
   while (x < daysOfWeekList.size - 1) {
-    x += 1
-    val day = daysOfWeekList(x)
-    day match {
+    val day = daysOfWeekList(x) match {
       case "Mon" => "Manic Monday"
       case otherDay => otherDay
     }
+    println(day)
+    x += 1
   }
 
-  var x = 0;
+  x = 0
   while (x < daysOfWeekList.size - 1) {
     x += 1
     val day = daysOfWeekList(x)
