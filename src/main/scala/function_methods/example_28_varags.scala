@@ -1,3 +1,5 @@
+package function_methods
+
 object example_28_varags extends App {
 
   def concatStrings(strings: String*) = {

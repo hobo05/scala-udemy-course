@@ -1,3 +1,5 @@
+package loops
+
 object example_20_nested_iterators extends App {
   val daysOfWeekList = List("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
 

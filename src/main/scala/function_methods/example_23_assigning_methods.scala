@@ -1,3 +1,5 @@
+package function_methods
+
 object example_23_assigning_methods extends App {
   val PI = 3.14
 

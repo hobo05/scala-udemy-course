@@ -1,3 +1,5 @@
+package cases
+
 object example_13_match extends App {
   val dayOfWeek = "Monday"
 

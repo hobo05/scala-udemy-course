@@ -1,3 +1,5 @@
+package function_methods
+
 object example_26_param_default_vals extends App {
 
   val radius = 10.0

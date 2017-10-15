@@ -1,3 +1,5 @@
+package function_methods
+
 object example_24_tuples extends App {
   val area = getRectangleArea(5, 8)
 

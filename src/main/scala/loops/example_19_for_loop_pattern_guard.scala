@@ -1,3 +1,5 @@
+package loops
+
 object example_19_for_loop_pattern_guard extends App {
   val daysOfWeekList = List("Manic Monday", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
 

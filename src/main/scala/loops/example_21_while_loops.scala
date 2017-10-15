@@ -1,3 +1,5 @@
+package loops
+
 object example_21_while_loops extends App {
   val daysOfWeekList = List("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
 

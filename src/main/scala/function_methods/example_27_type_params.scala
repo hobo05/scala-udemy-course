@@ -1,3 +1,5 @@
+package function_methods
+
 object example_27_type_params extends App {
   def printPairTypes[K, V](k: K, v: V) = {
     val keyType = k.getClass

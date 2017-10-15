@@ -1,6 +1,6 @@
+package function_methods
 
-
-object Example1 extends App {
+object example_33_anonymous_functions extends App {
 
   def getComparator() = {
     def compareStrings(s1: String, s2: String): Int = {

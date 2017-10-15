@@ -1,3 +1,5 @@
+package function_methods
+
 object example_25_named_method_params extends App {
 
   def getRectangleArea(length: Double, breadth: Double) = {

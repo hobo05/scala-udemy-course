@@ -1,3 +1,5 @@
+package cases
+
 object example_14_pattern_guard_OR extends App {
 
   val dayOfWeek1 = "Friday"

@@ -1,3 +1,5 @@
+package cases
+
 object example_16_match_type extends App {
   var radius1: Any = 10
 

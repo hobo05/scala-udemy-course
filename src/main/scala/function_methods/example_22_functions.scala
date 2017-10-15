@@ -1,3 +1,5 @@
+package function_methods
+
 object example_22_functions extends App {
 
   val getRectangleArea = (length: Double, breadth: Double) => {
