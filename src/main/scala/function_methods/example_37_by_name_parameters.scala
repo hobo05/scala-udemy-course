@@ -2,13 +2,14 @@ package function_methods
 
 object example_37_by_name_parameters extends App {
   def voteForMrTrump(x: String): String = {
-    println("method invoked")
+    println("== method invoked ==")
     x
   }
 
   def sayHelloToMrTrump(name: => String): String = {
     // First evaluation
-    println(s"$name, Meet the President!")
+    println(s"Meet the President!")
+    println(name)
     // Second evaluation, the method that generates name is called again
     name
   }
@@ -20,7 +21,8 @@ object example_37_by_name_parameters extends App {
 
 
   def sayHelloToMrTrump2(name: String): String = {
-    println(s"$name, Meet the President!")
+    println(s"Meet the President!")
+    println(name)
     name
   }
 
