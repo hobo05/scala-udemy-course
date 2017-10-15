@@ -1,3 +1,5 @@
+package function_methods
+
 object example_34_placeholder_syntax extends App {
 
   def IsSpecialName(firstName: String, lastName: String): Boolean = {
